@@ -223,4 +223,31 @@ Output:
 
     variable a = abc
     variable b = 10
-    Masukkan nilai yang valid (angka).    
+    Masukkan nilai yang valid (angka).
+Penjelasan:
+
+Input dari Pengguna:
+
+    Pengguna diminta untuk memasukkan nilai untuk variabel a dan b.
+    Pengguna memasukkan abc untuk a, yang merupakan string yang tidak dapat dikonversi menjadi angka.
+    Pengguna memasukkan 10 untuk b, yang adalah angka valid.
+
+Menampilkan Nilai:
+
+    Program menampilkan nilai yang dimasukkan:
+    variable a = abc
+    variable b = 10
+    Pada titik ini, program hanya mencetak nilai yang dimasukkan tanpa melakukan operasi aritmatika.
+
+Mengonversi Tipe Data:
+
+    Program mencoba mengonversi nilai a dan b ke tipe data int dengan menggunakan int(a) dan int(b).
+    Saat mencoba mengonversi abc menjadi int, Python akan mengeluarkan ValueError karena abc bukan representasi angka    yang valid.
+
+Penanganan Kesalahan:
+
+    Program menggunakan blok try-except untuk menangani potensi kesalahan.
+    Ketika ValueError terjadi, eksekusi berpindah ke bagian except, di mana program mencetak pesan kesalahan:
+    Masukkan nilai yang valid (angka).
+    Ini memberi tahu pengguna bahwa input yang dimasukkan tidak dapat diproses dan meminta mereka untuk memasukkan nilai yang benar.
+    
