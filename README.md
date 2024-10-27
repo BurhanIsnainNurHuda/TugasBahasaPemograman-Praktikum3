@@ -121,7 +121,7 @@ Output:
 
 # Latihan 2
 
-# Code Asli (Yang salah atau eror)
+# Code Asli (Yang Salah atau Eror)
 
 
     a = input("masukkan nilai a:")
@@ -138,4 +138,34 @@ Output:
 # Masalah dalam Code Asli yang eror
     1. Penggunaan `format()` dan `%` secara bersamaan: Kode ini mencoba menggunakan metode `format()` dan operator `%` pada saat yang sama, yang tidak akan berfungsi dengan baik.
     2. Tipe Data Input: Fungsi `input()` mengembalikan nilai dalam bentuk string. Anda perlu mengonversi nilai tersebut ke tipe data yang sesuai sebelum melakukan operasi aritmatika.
-    3. Format String yang Tidak Sesuai: Format string tidak ditulis dengan benar, yang dapat menyebabkan kesalahan saat dijalankan.    
+    3. Format String yang Tidak Sesuai: Format string tidak ditulis dengan benar, yang dapat menyebabkan kesalahan saat run.    
+
+# Code yang benar (Tidak Eror)
+
+    #Meminta input dari pengguna
+      a = input("masukkan nilai a: ")
+      b = input("masukkan nilai b: ")
+
+    #Menampilkan nilai a dan b
+      print("variable a =", a)
+      print("variable b =", b)
+
+    #Mengonversi a dan b ke tipe data yang sesuai (misalnya, int)
+      try:
+      a = int(a)
+      b = int(b)
+
+    # Menampilkan hasil penggabungan
+      print("hasil penggabungan (1) + (0) = {}".format(a + b))
+
+    # Menampilkan hasil penjumlahan
+      print("hasil penjumlahan [1] + [0] = {}".format(a + b))
+
+    # Menampilkan hasil pembagian
+      if b != 0:  # Memastikan tidak membagi dengan nol
+        print("hasil pembagian (1) / (0) = {}".format(a / b))
+      else:
+        print("Pembagian dengan nol tidak diperbolehkan.")
+      except ValueError:
+      print("Masukkan nilai yang valid (angka).")
+      
