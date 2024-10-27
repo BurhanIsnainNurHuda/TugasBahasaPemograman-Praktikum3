@@ -65,7 +65,7 @@ Output:
     10:15:20:25
     10-----15-----20-----25
 
-3. String format (String Formatting)
+3. Format String (String Formatting)
 String formatting di Python untuk menyajikan output dengan cara yang lebih terstruktur dan mudah dibaca. Dalam contoh dibawah, Saya mencetak angka dan pangkat dari 10. Lihat bagaimana saya bisa menggunakan string formatting untuk membuat output lebih rapi.
 
 Input:
@@ -74,17 +74,7 @@ Input:
       for i in range(11):
       print(f"{i} {10**i}")
 
-    Menggunakan `.format()`
-      for i in range(11):
-      print("{} {}".format(i, 10**i))
-
-    Menggunakan % Formatting
-      for i in range(11):
-      print("%d %d" % (i, 10**i))
-
 Output:
-
-Semua metode di atas akan menghasilkan output yang sama
 
     0 1
     1 10
@@ -98,4 +88,33 @@ Semua metode di atas akan menghasilkan output yang sama
     9 1000000000
     10 10000000000      
 
-      
+4. Format String dengan Penyesuaian Lebar Kolom
+Ini sangat berguna ketika ingin mencetak tabel atau data yang terformat dengan rapi.
+
+Input:
+
+    print('{0:>3} {1:>16}'.format(0, 10**0))
+    print('{0:>3} {1:>16}'.format(1, 10**1))
+    print('{0:>3} {1:>16}'.format(2, 10**2))
+    print('{0:>3} {1:>16}'.format(3, 10**3))
+    print('{0:>3} {1:>16}'.format(4, 10**4))
+    print('{0:>3} {1:>16}'.format(5, 10**5))
+    print('{0:>3} {1:>16}'.format(6, 10**6))
+    print('{0:>3} {1:>16}'.format(7, 10**7))
+    print('{0:>3} {1:>16}'.format(8, 10**8))
+    print('{0:>3} {1:>16}'.format(9, 10**9))
+    print('{0:>3} {1:>16}'.format(10, 10**10))
+
+Output:
+
+    0                1
+    1                10
+    2               100
+    3              1000
+    4             10000
+    5            100000
+    6           1000000
+    7          10000000
+    8         100000000
+    9        1000000000
+    10      10000000000
