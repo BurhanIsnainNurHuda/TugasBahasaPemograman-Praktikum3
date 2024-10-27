@@ -26,3 +26,13 @@ Penjelasan:
 1. penggunaan end
 
 Dalam Python, fungsi '`print()`' memiliki parameter '`end`' yang digunakan untuk menentukan karakter yang akan ditambahkan di akhir output. Secara default, '`end`' adalah `'/n'`, yang berarti setiap panggilan '`print()`' akan diakhiri dengan baris baru. Dan, dapat diubah sesuai kebutuhan.
+
+Input:
+
+    print('A', end='')  # Mencetak 'A' tanpa baris baru
+    print('B', end='')  # Mencetak 'B' tanpa baris baru
+    print('C', end='')  # Mencetak 'C' tanpa baris baru
+    print()              # Mencetak baris baru
+    print('X')          # Mencetak 'X' di baris baru
+    print('Y')          # Mencetak 'Y' di baris baru
+    print('Z')          # Mencetak 'Z' di baris baru
