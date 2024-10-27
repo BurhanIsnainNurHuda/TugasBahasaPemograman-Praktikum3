@@ -121,3 +121,21 @@ Output:
 
 # Latihan 2
 
+# Code Asli (Yang salah atau eror)
+
+
+    a = input("masukkan nilai a:")
+    b = input("masukkan nilai b:")
+    print("variable a=", a)
+    print("variable b=", b)
+    print("hasil penggabungan (1}&{0}=%d".format(a, b) %(a+b))
+    # konversi nilai variable
+    a = int(a)
+    b = int(b)
+    print("hasil penjumlahan [1]+[0]=%d".format(a, b) %(a + b))
+    print("hasil pembagian (1)/(B)=%d".format(a, b) %(a / b))
+
+# Masalah dalam Code Asli yang eror
+    1. Penggunaan `format()` dan `%` secara bersamaan: Kode ini mencoba menggunakan metode `format()` dan operator `%` pada saat yang sama, yang tidak akan berfungsi dengan baik.
+    2. Tipe Data Input: Fungsi `input()` mengembalikan nilai dalam bentuk string. Anda perlu mengonversi nilai tersebut ke tipe data yang sesuai sebelum melakukan operasi aritmatika.
+    3. Format String yang Tidak Sesuai: Format string tidak ditulis dengan benar, yang dapat menyebabkan kesalahan saat dijalankan.    
