@@ -190,3 +190,37 @@ Penjelasan:
     Program mengonversi `a` dan `b` menjadi tipe data `int` dan menjumlahkannya.
     Hasil penjumlahan `10 + 5` adalah `15`.
     Hasil pembagian `10 / 5` adalah `2.0`.
+
+Contoh 2: Input Valid dengan Angka Negatif
+Input:
+
+    masukkan nilai a: -3
+    masukkan nilai b: 7
+
+Output:
+
+    variable a = -3
+    variable b = 7
+    hasil penggabungan (1) + (0) = 4
+    hasil penjumlahan [1] + [0] = 4
+    hasil pembagian (1) / (0) = -0.42857142857142855
+
+Penjelasan:
+
+    Pengguna memasukkan `-3` untuk `a` dan `7` untuk `b`.
+    Program menampilkan nilai dari `a` dan `b`.
+    Program mengonversi dan menjumlahkan `-3 + 7`, menghasilkan `4`.
+    Hasil pembagian `-3 / 7` adalah `-0.42857142857142855`.
+
+Contoh 3: Input Tidak Valid
+
+Input:
+
+    masukkan nilai a: abc
+    masukkan nilai b: 10
+
+Output:
+
+    variable a = abc
+    variable b = 10
+    Masukkan nilai yang valid (angka).    
