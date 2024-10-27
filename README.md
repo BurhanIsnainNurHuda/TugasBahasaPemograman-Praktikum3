@@ -1,4 +1,4 @@
 # TugasBahasaPemograman-Praktikum3
 # Flowchart:
-﻿e6bd98c3a87434e8478ed0fc81d0ebe040ed0261
-# Python Code: 
+﻿![WhatsApp Image 2024-10-27 at 09 03 52](https://github.com/user-attachments/assets/3b5f79df-da1b-4e95-a34f-90fd5ddbfac4)
+
