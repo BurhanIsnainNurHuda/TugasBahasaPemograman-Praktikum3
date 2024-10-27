@@ -168,4 +168,25 @@ Output:
         print("Pembagian dengan nol tidak diperbolehkan.")
       except ValueError:
       print("Masukkan nilai yang valid (angka).")
+
+Contoh 1: Input Valid
+Input:
+
+    masukkan nilai a: 10
+    masukkan nilai b: 5
+    
+Output:
+
+    variable a = 10
+    variable b = 5
+    hasil penggabungan (1) + (0) = 15
+    hasil penjumlahan [1] + [0] = 15
+    hasil pembagian (1) / (0) = 2.0
       
+Penjelasan:
+
+    Pengguna memasukkan `10` untuk variabel `a` dan `5` untuk variabel `b`.
+    Program menampilkan nilai dari `a` dan `b`.
+    Program mengonversi `a` dan `b` menjadi tipe data `int` dan menjumlahkannya.
+    Hasil penjumlahan `10 + 5` adalah `15`.
+    Hasil pembagian `10 / 5` adalah `2.0`.
