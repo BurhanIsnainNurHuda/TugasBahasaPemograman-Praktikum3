@@ -36,3 +36,31 @@ Input:
     print('X')          # Mencetak 'X' di baris baru
     print('Y')          # Mencetak 'Y' di baris baru
     print('Z')          # Mencetak 'Z' di baris baru
+
+Output:
+
+    ABC
+    X
+    Y
+    Z
+    
+2. penggunaan separator
+Dalam Python, parameter '`sep`' dalam fungsi '`print()`' digunakan untuk menentukan karakter yang akan digunakan sebagai pemisah antara argumen yang dicetak. Secara default, '`sep`' adalah '`' '`', yang berarti setiap argumen akan dipisahkan oleh spasi.
+
+Input:
+
+    w, x, y, z = 10, 15, 20, 25
+
+    print(w, x, y, z)                # Output: 10 15 20 25 (default separator: space)
+    print(w, x, y, z, sep=',')       # Output: 10,15,20,25 (separator: comma)
+    print(w, x, y, z, sep='')        # Output: 10152025 (no separator)
+    print(w, x, y, z, sep=':')       # Output: 10:15:20:25 (separator: colon)
+    print(w, x, y, z, sep='-----')   # Output: 10-----15-----20-----25 (separator: '-----')
+
+Output:
+
+    10 15 20 25
+    10,15,20,25
+    10152025
+    10:15:20:25
+    10-----15-----20-----25
