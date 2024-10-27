@@ -21,3 +21,8 @@ Penjelasan:
 # Output:
 ![IMG_20241027_103406](https://github.com/user-attachments/assets/8fb66cbb-e558-482e-82ff-f5c153384301)
 
+# Latihan 1
+
+1. penggunaan end
+
+Dalam Python, fungsi '`print()`' memiliki parameter '`end`' yang digunakan untuk menentukan karakter yang akan ditambahkan di akhir output. Secara default, '`end`' adalah `'/n'`, yang berarti setiap panggilan '`print()`' akan diakhiri dengan baris baru. Dan, dapat diubah sesuai kebutuhan.
