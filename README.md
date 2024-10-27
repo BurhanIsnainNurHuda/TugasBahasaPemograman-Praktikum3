@@ -23,7 +23,7 @@ Penjelasan:
 
 # Latihan 1
 
-1. penggunaan end
+1. Penggunaan end
 
 Dalam Python, fungsi '`print()`' memiliki parameter '`end`' yang digunakan untuk menentukan karakter yang akan ditambahkan di akhir output. Secara default, '`end`' adalah `'/n'`, yang berarti setiap panggilan '`print()`' akan diakhiri dengan baris baru. Dan, dapat diubah sesuai kebutuhan.
 
@@ -44,7 +44,7 @@ Output:
     Y
     Z
     
-2. penggunaan separator
+2. Penggunaan separator
 Dalam Python, parameter '`sep`' dalam fungsi '`print()`' digunakan untuk menentukan karakter yang akan digunakan sebagai pemisah antara argumen yang dicetak. Secara default, '`sep`' adalah '`' '`', yang berarti setiap argumen akan dipisahkan oleh spasi.
 
 Input:
@@ -64,3 +64,38 @@ Output:
     10152025
     10:15:20:25
     10-----15-----20-----25
+
+3. String format (String Formatting)
+String formatting di Python untuk menyajikan output dengan cara yang lebih terstruktur dan mudah dibaca. Dalam contoh dibawah, Saya mencetak angka dan pangkat dari 10. Lihat bagaimana saya bisa menggunakan string formatting untuk membuat output lebih rapi.
+
+Input:
+
+    Menggunakan f-string (Python 3.6+)
+      for i in range(11):
+      print(f"{i} {10**i}")
+
+    Menggunakan `.format()`
+      for i in range(11):
+      print("{} {}".format(i, 10**i))
+
+    Menggunakan % Formatting
+      for i in range(11):
+      print("%d %d" % (i, 10**i))
+
+Output:
+
+Semua metode di atas akan menghasilkan output yang sama
+
+    0 1
+    1 10
+    2 100
+    3 1000
+    4 10000
+    5 100000
+    6 1000000
+    7 10000000
+    8 100000000
+    9 1000000000
+    10 10000000000      
+
+      
